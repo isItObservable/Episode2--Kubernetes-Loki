@@ -116,12 +116,12 @@ helm upgrade --install loki loki/loki-stack
 #### Configure Grafana 
 In order to build a dashboard with data stored in Loki,we first need to add a new DataSource.
 In grafana, goto Configuration/Add data source.
-<p align="center"><img src="/image/addsource.png" width="40%" alt="grafana add datasource" /></p>
+<p align="center"><img src="/image/addsource.PNG" width="40%" alt="grafana add datasource" /></p>
 Select the source Loki , and configure the url to interact with it.
 
 Remember Grafana is hosted in the same namesapce as Loki.
 So you can simply refer the loki service :
-<p align="center"><img src="/image/datasource.png" width="40%" alt="grafana add datasource" /></p>
+<p align="center"><img src="/image/datasource.PNG" width="40%" alt="grafana add datasource" /></p>
 
 #### explore the data provided by Loki in Grafana 
 In grafana select Explore on the main menu
